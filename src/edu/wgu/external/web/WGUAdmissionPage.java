@@ -25,7 +25,8 @@ public class WGUAdmissionPage {
 	}
 
 	public static void setBrowserConfig() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Automation\\SeleniumTest\\lib\\Drivers\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Automation\\SeleniumTest\\"
+				+ "lib\\Drivers\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver(); 
 	}
 
